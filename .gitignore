@@ -1,0 +1,39 @@
+
+#Dingwei's config
+**/test/**
+*.MF
+*.jar
+*.lst
+**/bin/**
+**/.settings/**
+
+
+#.gitignore
+#java
+*.class
+
+# Eclipse
+/ivy*
+.metadata
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
+#gradle
+.gradle
+build/
+classes/
+
+*.csv
