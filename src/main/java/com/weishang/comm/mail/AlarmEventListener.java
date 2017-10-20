@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
  * 事件监听器
  */
 @Component
-public class BizEventListener implements ApplicationListener<ApplicationEvent> {
+public class AlarmEventListener implements ApplicationListener<ApplicationEvent> {
 
 	@Override
 	public void onApplicationEvent(ApplicationEvent applicationEvent) {
